@@ -51,7 +51,7 @@ let userConfirm=confirm("Estas seguro?");
     for (let i=0;i<cantidad;i++){
         document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKrKvY5VRpFluEA8DLFXSoFaghoCfYleWmmrcGtFxgSxerQQPZmi4GIK7r0Hhag276nJI&usqp=CAU'>");
         contador=i+1;
-        document.write('<h1>Imagen #' +contador);
+        document.write('<h1>Imagen #' +contador+'</h1>');
     }
  }
  pintarImagenes();
